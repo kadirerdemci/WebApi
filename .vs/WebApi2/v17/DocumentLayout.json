@@ -1,0 +1,823 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|solutionrelative:business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\business\\constants\\pathconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|solutionrelative:business\\constants\\pathconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\security\\jwt\\tokenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\jwt\\tokenoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA3F6B7-6CEB-4719-95B4-D9A477AEEABB}|DataAccess\\DataAccess.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\dataaccess\\abstract\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA3F6B7-6CEB-4719-95B4-D9A477AEEABB}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\results\\succesresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\succesresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\results\\succesdataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\succesdataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\results\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\iresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\results\\idataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\idataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\results\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\results\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\dataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\ioc\\servicetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\ioc\\servicetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\methodinterception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\aspectinterceptorselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\helper\\ifilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\helper\\ifilehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\helper\\filehelpermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\helper\\filehelpermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\bussines\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\bussines\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\entities\\concretes\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\entities\\concretes\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\entities\\concretes\\useroperationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\entities\\concretes\\useroperationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\entities\\concretes\\operationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\entities\\concretes\\operationclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\entities\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\entities\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\entities\\idto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\extensions\\claimextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\extensions\\claimextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\crosscuttingconcerns\\validation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\crosscuttingconcerns\\validation\\validationtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\aspects\\autofac\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\aspects\\autofac\\validation\\validationaspect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|solutionrelative:business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|solutionrelative:business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\business\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|solutionrelative:business\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\business\\bussinesaspects\\autofac\\securedoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|solutionrelative:business\\bussinesaspects\\autofac\\securedoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17695D20-D22A-432A-8D35-A1989F21715D}|Business\\Business.csproj|solutionrelative:business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\interceptors\\methodinterceptionbaseattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\interceptors\\methodinterceptionbaseattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFA2867-A93D-4B66-8E58-6979DB05132C}|WebApi2\\WebApi2.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\webapi2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFA2867-A93D-4B66-8E58-6979DB05132C}|WebApi2\\WebApi2.csproj|solutionrelative:webapi2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5726F87F-866B-41FF-9A5B-33EA39232F74}|Entities\\Entities.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\entities\\dtos\\userforregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5726F87F-866B-41FF-9A5B-33EA39232F74}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\userforregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5726F87F-866B-41FF-9A5B-33EA39232F74}|Entities\\Entities.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\entities\\dtos\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5726F87F-866B-41FF-9A5B-33EA39232F74}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\userforlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA3F6B7-6CEB-4719-95B4-D9A477AEEABB}|DataAccess\\DataAccess.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\dataaccess\\migrations\\20240306094034_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA3F6B7-6CEB-4719-95B4-D9A477AEEABB}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240306094034_mig1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA3F6B7-6CEB-4719-95B4-D9A477AEEABB}|DataAccess\\DataAccess.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\dataaccess\\migrations\\webapicontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA3F6B7-6CEB-4719-95B4-D9A477AEEABB}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\webapicontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA3F6B7-6CEB-4719-95B4-D9A477AEEABB}|DataAccess\\DataAccess.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\dataaccess\\concrete\\entityframework\\webapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA3F6B7-6CEB-4719-95B4-D9A477AEEABB}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\webapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FA3F6B7-6CEB-4719-95B4-D9A477AEEABB}|DataAccess\\DataAccess.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\dataaccess\\concrete\\entityframework\\efusersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FA3F6B7-6CEB-4719-95B4-D9A477AEEABB}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efusersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\security\\jwt\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\jwt\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\security\\jwt\\itokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\jwt\\itokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\security\\jwt\\accestoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\jwt\\accestoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\security\\hashing\\hashinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\hashing\\hashinghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\results\\errordataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\errordataresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFA2867-A93D-4B66-8E58-6979DB05132C}|WebApi2\\WebApi2.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\webapi2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2AFA2867-A93D-4B66-8E58-6979DB05132C}|WebApi2\\WebApi2.csproj|solutionrelative:webapi2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|c:\\users\\windows 10\\source\\repos\\webapi2\\core\\utilities\\security\\encryption\\securitykeyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56A16DC5-DA32-4298-A655-B815AFC0A4DB}|Core\\Core.csproj|solutionrelative:core\\utilities\\security\\encryption\\securitykeyhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:16:36.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PathConstants.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Constants\\PathConstants.cs",
+              "RelativeDocumentMoniker": "Business\\Constants\\PathConstants.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Constants\\PathConstants.cs",
+              "RelativeToolTip": "Business\\Constants\\PathConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:16:32.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Constants\\Messages.cs",
+              "RelativeDocumentMoniker": "Business\\Constants\\Messages.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Constants\\Messages.cs*",
+              "RelativeToolTip": "Business\\Constants\\Messages.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:16:09.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SuccesResult.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\SuccesResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\SuccesResult.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\SuccesResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\SuccesResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:53.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataResult.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\DataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\DataResult.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\DataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\DataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:46.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServiceTool.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\IoC\\ServiceTool.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\IoC\\ServiceTool.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\IoC\\ServiceTool.cs",
+              "RelativeToolTip": "Core\\Utilities\\IoC\\ServiceTool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:44.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Entities\\Concretes\\Users.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concretes\\Users.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Entities\\Concretes\\Users.cs",
+              "RelativeToolTip": "Core\\Entities\\Concretes\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:32.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserOperationClaim.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Entities\\Concretes\\UserOperationClaim.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concretes\\UserOperationClaim.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Entities\\Concretes\\UserOperationClaim.cs",
+              "RelativeToolTip": "Core\\Entities\\Concretes\\UserOperationClaim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:31.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OperationClaim.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Entities\\Concretes\\OperationClaim.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Concretes\\OperationClaim.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Entities\\Concretes\\OperationClaim.cs",
+              "RelativeToolTip": "Core\\Entities\\Concretes\\OperationClaim.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:30.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Entities\\IEntity.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\IEntity.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Entities\\IEntity.cs",
+              "RelativeToolTip": "Core\\Entities\\IEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:28.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IDto.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Entities\\IDto.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\IDto.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Entities\\IDto.cs",
+              "RelativeToolTip": "Core\\Entities\\IDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:27.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClaimsPrincipalExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "RelativeDocumentMoniker": "Core\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "RelativeToolTip": "Core\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:24.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClaimExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Extensions\\ClaimExtensions.cs",
+              "RelativeDocumentMoniker": "Core\\Extensions\\ClaimExtensions.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Extensions\\ClaimExtensions.cs",
+              "RelativeToolTip": "Core\\Extensions\\ClaimExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:22.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ValidationTool.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\CrossCuttingConcerns\\Validation\\ValidationTool.cs",
+              "RelativeDocumentMoniker": "Core\\CrossCuttingConcerns\\Validation\\ValidationTool.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\CrossCuttingConcerns\\Validation\\ValidationTool.cs",
+              "RelativeToolTip": "Core\\CrossCuttingConcerns\\Validation\\ValidationTool.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:17.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ValidationAspect.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "RelativeDocumentMoniker": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "RelativeToolTip": "Core\\Aspects\\Autofac\\Validation\\ValidationAspect.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:15:05.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Concrete\\UserManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Concrete\\UserManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\UserManager.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:14:49.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Abstract\\IUserService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Abstract\\IUserService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:14:38.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Abstract\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Abstract\\IAuthService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:14:36.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SecuredOperation.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\BussinesAspects\\Autofac\\SecuredOperation.cs",
+              "RelativeDocumentMoniker": "Business\\BussinesAspects\\Autofac\\SecuredOperation.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\BussinesAspects\\Autofac\\SecuredOperation.cs",
+              "RelativeToolTip": "Business\\BussinesAspects\\Autofac\\SecuredOperation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:14:34.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Concrete\\AuthManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Concrete\\AuthManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\AuthManager.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:14:26.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\WebApi2\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApi2\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\WebApi2\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "WebApi2\\Controllers\\AuthController.cs*",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAADsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:13:30.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserForRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Entities\\DTOs\\UserForRegisterDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\UserForRegisterDto.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Entities\\DTOs\\UserForRegisterDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\UserForRegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:13:27.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserForLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Entities\\DTOs\\UserForLoginDto.cs",
+              "RelativeDocumentMoniker": "Entities\\DTOs\\UserForLoginDto.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Entities\\DTOs\\UserForLoginDto.cs",
+              "RelativeToolTip": "Entities\\DTOs\\UserForLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:13:26.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "WebApiContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\Migrations\\WebApiContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\WebApiContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\Migrations\\WebApiContextModelSnapshot.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\WebApiContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:13:21.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240306094034_mig1.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\Migrations\\20240306094034_mig1.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240306094034_mig1.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\Migrations\\20240306094034_mig1.cs",
+              "RelativeToolTip": "DataAccess\\Migrations\\20240306094034_mig1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:13:19.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "WebApiContext.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\Concrete\\EntityFrameWork\\WebApiContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFrameWork\\WebApiContext.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\Concrete\\EntityFrameWork\\WebApiContext.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFrameWork\\WebApiContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:13:18.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EfUsersDal.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\Concrete\\EntityFrameWork\\EfUsersDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFrameWork\\EfUsersDal.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\Concrete\\EntityFrameWork\\EfUsersDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFrameWork\\EfUsersDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:13:16.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserDal.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\Abstract\\IUserDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IUserDal.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\Abstract\\IUserDal.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IUserDal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:13:15.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\JWT\\TokenOptions.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\JWT\\TokenOptions.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\JWT\\TokenOptions.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\JWT\\TokenOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:12:54.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "HashingHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\Hashing\\HashingHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\Hashing\\HashingHelper.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\Hashing\\HashingHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\Hashing\\HashingHelper.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:12:35.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SuccesDataResult.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\SuccesDataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\SuccesDataResult.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\SuccesDataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\SuccesDataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:12:11.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\Result.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Result.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\Result.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:12:10.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IResult.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\IResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\IResult.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\IResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\IResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:12:07.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IDataResult.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\IDataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\IDataResult.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\IDataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\IDataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:12:05.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ErrorResult.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\ErrorResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\ErrorResult.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\ErrorResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\ErrorResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:12:03.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ErrorDataResult.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\ErrorDataResult.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\ErrorDataResult.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Results\\ErrorDataResult.cs",
+              "RelativeToolTip": "Core\\Utilities\\Results\\ErrorDataResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:11:35.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MethodInterception.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\MethodInterception.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:10:22.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MethodInterceptionBaseAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\MethodInterceptionBaseAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:10:20.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AspectInterceptorSelector.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "RelativeToolTip": "Core\\Utilities\\Interceptors\\AspectInterceptorSelector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:10:19.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IFileHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Helper\\IFileHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Helper\\IFileHelper.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Helper\\IFileHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Helper\\IFileHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:10:16.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FileHelperManager.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Helper\\FileHelperManager.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Helper\\FileHelperManager.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Helper\\FileHelperManager.cs",
+              "RelativeToolTip": "Core\\Utilities\\Helper\\FileHelperManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:10:15.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BusinessRules.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Bussines\\BusinessRules.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Bussines\\BusinessRules.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Bussines\\BusinessRules.cs",
+              "RelativeToolTip": "Core\\Utilities\\Bussines\\BusinessRules.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T11:10:06.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\WebApi2\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi2\\appsettings.json",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\WebApi2\\appsettings.json",
+              "RelativeToolTip": "WebApi2\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-06T10:47:24.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SecurityKeyHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\Encryption\\SecurityKeyHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\Encryption\\SecurityKeyHelper.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\Encryption\\SecurityKeyHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\Encryption\\SecurityKeyHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBUAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:46:05.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\JWT\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\JWT\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\JWT\\JwtHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\JWT\\JwtHelper.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAYwDgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:45:17.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ITokenHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\JWT\\ITokenHelper.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\JWT\\ITokenHelper.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\JWT\\ITokenHelper.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\JWT\\ITokenHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:45:10.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AccesToken.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\JWT\\AccesToken.cs",
+              "RelativeDocumentMoniker": "Core\\Utilities\\Security\\JWT\\AccesToken.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Utilities\\Security\\JWT\\AccesToken.cs",
+              "RelativeToolTip": "Core\\Utilities\\Security\\JWT\\AccesToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T10:45:07.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
