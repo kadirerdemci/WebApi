@@ -8,15 +8,10 @@ using System.Threading.Tasks;
 
 namespace Core.Extensions
 {
-
-    //bu sınıfta bizim claims sınıfında olmayan methodları ekledik Aşağıdaki kodları incelersek...
     public static class ClaimExtensions
     {
-        //(this ICollection<Claim> claims,string email) yazan yerde Claim sınıfına AddEmail
-        //methodunu ekle diyoruz. 
         public static void AddEmail(this ICollection<Claim> claims, string email)
         {
-            //Daha sonra aşağıdaki methodla ekleme yaparız ...Diğer kodlarda aynı mantık
             claims.Add(new Claim(JwtRegisteredClaimNames.Email, email));
         }
 
@@ -34,5 +29,6 @@ namespace Core.Extensions
         {
             roles.ToList().ForEach(role => claims.Add(new Claim(ClaimTypes.Role, role)));
         }
+
     }
 }

@@ -1,20 +1,21 @@
-﻿using Core.Utilities.Results;
-using Core.Utilities.Security.JWT;
-using Entities.Concrete;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Core.Entities.Concrete;
+using Core.Utilities.Result;
+using Core.Utilities.Security.JWT;
+using Entities.Dtos;
 
 namespace Business.Abstract
 {
     public interface IAuthService
     {
-
-        IDataResult<Users> Register(Entities.DTOs.UserForRegisterDto userForRegisterDto, string password);
-        IDataResult<Users> Login(Entities.DTOs.UserForLoginDto userForLoginDto);
+        IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password);
+        IDataResult<User> Login(UserForLoginDto userForLoginDto);
         IResult UserExists(string email);
-        IDataResult<AccesToken> CreateAccessToken(Users user);
+        IDataResult<AccessToken> CreateAccessToken(User user);
     }
 }
+

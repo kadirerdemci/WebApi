@@ -1,62 +1,47 @@
-﻿using Azure.Core;
-using Core.Entities.Concretes;
-using Core.Extensions;
-using Core.Utilities.Security.Encryption;
-using Entities.Concrete;
-using Microsoft.Extensions.Configuration;
-using Microsoft.IdentityModel.Tokens;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
-using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using Core.Entities.Concrete;
+using Core.Extensions;
+using Core.Utilities.Security.Encyption;
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
 
 namespace Core.Utilities.Security.JWT
 {
     public class JwtHelper : ITokenHelper
     {
+
         public IConfiguration Configuration { get; }
         private TokenOptions _tokenOptions;
         private DateTime _accessTokenExpiration;
-
         public JwtHelper(IConfiguration configuration)
         {
             Configuration = configuration;
             _tokenOptions = Configuration.GetSection("TokenOptions").Get<TokenOptions>();
-
-        }
-
-        public AccesToken CreateToken(Users user, List<OperationClaim> operationClaims)
-        {
             _accessTokenExpiration = DateTime.Now.AddMinutes(_tokenOptions.AccessTokenExpiration);
-
-            // Generate a key of sufficient size
-            var securityKey = GenerateSecurityKey(64); // 512 bits (64 bytes)
-
-            var signingCredentials = SigningCredentialsHelper.CreateSigningCredentials(securityKey);
+        }
+        public AccessToken CreateToken(User user, List<OperationClaim> operationClaims)
+        {
+            var securityKey = SecurityKeyHelper.CreateSecurityKey(_tokenOptions.SecurityKey);
+            var signingCredentials = SigningCredentialsHelper.CredentialSigningCredentials(securityKey);
             var jwt = CreateJwtSecurityToken(_tokenOptions, user, signingCredentials, operationClaims);
             var jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
             var token = jwtSecurityTokenHandler.WriteToken(jwt);
 
-            return new AccesToken
+            return new AccessToken
             {
                 Token = token,
                 Expiration = _accessTokenExpiration
             };
+
         }
 
-        // Method to generate a key of the specified size
-        private SecurityKey GenerateSecurityKey(int keySizeInBytes)
-        {
-            var key = new byte[keySizeInBytes];
-            using (var rng = RandomNumberGenerator.Create())
-            {
-                rng.GetBytes(key);
-            }
-            return new SymmetricSecurityKey(key);
-        }
-        public JwtSecurityToken CreateJwtSecurityToken(TokenOptions tokenOptions, Users user,
+        public JwtSecurityToken CreateJwtSecurityToken(TokenOptions tokenOptions, User user,
             SigningCredentials signingCredentials, List<OperationClaim> operationClaims)
         {
             var jwt = new JwtSecurityToken(
@@ -70,7 +55,7 @@ namespace Core.Utilities.Security.JWT
             return jwt;
         }
 
-        private IEnumerable<Claim> SetClaims(Users user, List<OperationClaim> operationClaims)
+        private IEnumerable<Claim> SetClaims(User user, List<OperationClaim> operationClaims)
         {
             var claims = new List<Claim>();
             claims.AddNameIdentifier(user.Id.ToString());
@@ -80,5 +65,6 @@ namespace Core.Utilities.Security.JWT
 
             return claims;
         }
+
     }
 }

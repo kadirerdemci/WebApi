@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Business.csproj": {}
+    "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Business\\Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Business.csproj": {
+    "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\Business.csproj",
+        "projectPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Business\\obj\\",
+        "outputPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Core.csproj"
+              "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\DataAccess.csproj"
-              },
-              "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Entities\\Entities.csproj"
+              "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Entities\\Entities.csproj"
               }
             }
           }
@@ -58,10 +55,6 @@
             "Autofac": {
               "target": "Package",
               "version": "[8.0.0, )"
-            },
-            "Autofac.Extras.DynamicProxy": {
-              "target": "Package",
-              "version": "[7.1.0, )"
             }
           },
           "imports": [
@@ -84,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Core.csproj": {
+    "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -125,31 +118,31 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Azure.Core": {
-              "target": "Package",
-              "version": "[1.38.0, )"
-            },
-            "Castle.Core": {
-              "target": "Package",
-              "version": "[5.1.1, )"
-            },
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.9.0, )"
-            },
-            "Microsoft.AspNet.WebPages": {
-              "target": "Package",
-              "version": "[3.3.0, )"
-            },
-            "Microsoft.AspNetCore.Http": {
-              "target": "Package",
-              "version": "[2.2.2, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
             },
-            "Microsoft.Extensions.Configuration": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[8.0.0, )"
             },
@@ -164,14 +157,6 @@
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[7.4.0, )"
-            },
-            "System.Linq": {
-              "target": "Package",
-              "version": "[4.3.0, )"
-            },
-            "System.Linq.Expressions": {
-              "target": "Package",
-              "version": "[4.3.0, )"
             }
           },
           "imports": [
@@ -194,14 +179,14 @@
         }
       }
     },
-    "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -218,8 +203,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Core.csproj"
+              "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Core\\Core.csproj"
+              },
+              "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Entities\\Entities.csproj"
               }
             }
           }
@@ -249,17 +237,17 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Npgsql": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[8.0.2, )"
             }
@@ -284,14 +272,14 @@
         }
       }
     },
-    "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Entities\\Entities.csproj": {
+    "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -308,8 +296,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Windows 10\\source\\repos\\WebApi2\\Core\\Core.csproj"
+              "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Windows 10\\source\\repos\\NortwindBackend\\Core\\Core.csproj"
               }
             }
           }

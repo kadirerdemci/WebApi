@@ -1,59 +1,59 @@
-﻿using Business.Abstract;
-
-using Core.Utilities.Results;
-using Core.Utilities.Security.Hashing;
-using Core.Utilities.Security.JWT;
-using Entities.Concrete;
-using Entities.DTOs;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Business.Abstract;
+using Business.Contants;
+using Core.Entities.Concrete;
+using Core.Utilities.Result;
+using Core.Utilities.Security.Hashing;
+using Core.Utilities.Security.JWT;
+using Entities.Dtos;
 
 namespace Business.Concrete
 {
-    public class AuthManager:IAuthService
+    public class AuthManager : IAuthService
     {
 
         private IUserService _userService;
         private ITokenHelper _tokenHelper;
+
 
         public AuthManager(IUserService userService, ITokenHelper tokenHelper)
         {
             _userService = userService;
             _tokenHelper = tokenHelper;
         }
-
-
-
-        public IDataResult<AccesToken> CreateAccessToken(Users user)
+        public IDataResult<AccessToken> CreateAccessToken(User user)
         {
             var claims = _userService.GetClaims(user);
             var accessToken = _tokenHelper.CreateToken(user, claims);
-            return new SuccesDataResult<AccesToken>(accessToken, "Token oluşturuldu");
+            return new SuccesDataResult<AccessToken>(accessToken, Messages.AccessTokenCreated);
         }
 
-        public IDataResult<Users> Login(UserForLoginDto userForLoginDto)
+        public IDataResult<User> Login(UserForLoginDto userForLoginDto)
         {
             var userToCheck = _userService.GetByMail(userForLoginDto.Email);
             if (userToCheck == null)
             {
-                return new ErrorDataResult<Users>("Böyle Bir kullanıcı yok");
-            }
-            if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password,userToCheck.PasswordHash,userToCheck.PasswordSalt))
-            {
-                return new ErrorDataResult<Users>("Hatalı Kullanıcı Adı veya Şifre");
+                return new ErrorDataResult<User>(Messages.UserNotFound);
             }
 
-            return new SuccesDataResult<Users>(userToCheck, "Başarılı Giriş");
+            if (!HashingHelper.VerifyPasswordHash(userForLoginDto.Password, userToCheck.PasswordHash, userToCheck.PasswordSalt))
+            {
+                return new ErrorDataResult<User>(Messages.PasswordError);
+            }
+
+            return new SuccesDataResult<User>(userToCheck, Messages.SuccesfulLogin);
         }
 
-        public IDataResult<Users> Register(UserForRegisterDto userForRegisterDto, string password)
+
+        public IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password)
         {
             byte[] passwordHash, passwordSalt;
             HashingHelper.CreatePasswordHash(password, out passwordHash, out passwordSalt);
-            var user = new Users
+            var user = new User
             {
                 Email = userForRegisterDto.Email,
                 FirstName = userForRegisterDto.FirstName,
@@ -63,16 +63,19 @@ namespace Business.Concrete
                 Status = true
             };
             _userService.Add(user);
-            return new SuccesDataResult<Users>(user, "Kayıt olundu");
+            return new SuccesDataResult<User>(user, Messages.UserRegistered);
         }
+
 
         public IResult UserExists(string email)
         {
-            if (_userService.GetByMail(email) != null) 
+            if (_userService.GetByMail(email) != null)
             {
-                return new ErrorResult("Böyle bir kullanıcı zaten var");
+                return new ErrorResult(Messages.UserAlreadyExists);
             }
-            return new SuccesResult(); 
+
+            return new SuccesDataResult<User>(Messages.UserNotFound);
+
         }
     }
 }
